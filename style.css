@@ -1,0 +1,79 @@
+#topblackbar {
+    background-color: #282D42;
+    height:95px;
+}
+
+#singolotitle {
+    color: white;
+    float: left;
+    text-align: center;
+    height: 95px;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 35px ;
+    font-size: 180%;
+        
+}
+.star {
+    color: #F16C65;    
+}
+
+.topmenu {
+    height: auto;
+    width: auto;
+    float: right;
+    color: white;
+    margin-right: 75px;
+    list-style: none;
+    display: inline;
+    margin-top: 35px;    
+} 
+
+.topul .topli { list-style: none; display: inline; }
+.topul .topli:after { content: " \00b7"; }
+.topul .topli:last-child:after { content: none; }
+
+#carouselbox {
+    height: 675px;
+    background-color: #F16C65;
+    float: inherit;
+}
+
+
+#servicesbox {
+    background-color:#C8CAD4; 
+    height:600px; 
+}
+
+.servicefronttext {
+    float: left;
+    color: #F2F2F2;    
+}
+
+.servicetitle {
+    font-size: 200%;
+}
+.servicetext {
+    
+}
+
+#portfoliobox {
+    background-color:#2D2F3B; 
+    height:800px; 
+    color: #626883;
+}
+
+#aboutusbox {
+    height: 675px;
+    background-color: #C8CAD4;
+}
+
+#quotebox {
+    height: 675px;
+    background-color: #F16C65;
+}
+
+#bottommenu {
+    height: 95px;
+    background-color: #282D42;
+}
