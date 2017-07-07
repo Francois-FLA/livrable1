@@ -18,6 +18,8 @@
     color: #F16C65;    
 }
 
+
+
 .topmenu {
     height: auto;
     width: auto;
@@ -34,33 +36,88 @@
 .topul .topli:last-child:after { content: none; }
 
 #carouselbox {
-    height: 675px;
+    height: 620px;
     background-color: #F16C65;
     float: inherit;
+}
+
+.d-block {
+    margin-left: 160px;
+    margin-top: 10px;
 }
 
 
 #servicesbox {
     background-color:#C8CAD4; 
-    height:600px; 
+    height:550px; 
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 .servicefronttext {
     float: left;
-    color: #F2F2F2;    
+    color: #F2F2F2;
 }
 
 .servicetitle {
     font-size: 200%;
+    font-weight: bold;
+    padding-top: 40px;
 }
-.servicetext {
-    
+
+.servicetitle, .servicetext {
+    margin-left: 20px;
+    margin-top: auto;
+    color:#626883;
+    font-family: Arial;
+
+}
+
+.servicesbulle {
+    float:left;
+    height: 90px;
+    width: 90px;
+    margin: 15px;
+    border-radius: 100px;
+    margin-right: 25px;
+}
+
+.servicesbulletitle {
+    font-family: Arial;
+    font-size: 120%;
+    font-weight: bold;
+    color:#626883;
+}
+
+.servicebullecontent {
+    font-family: Arial;
+        color:#626883;
+
 }
 
 #portfoliobox {
     background-color:#2D2F3B; 
     height:800px; 
     color: #626883;
+}
+
+#portfoliocontent {
+    
+}
+
+#portfoliotext {
+    
+}
+
+
+.col-sm-1 {
+    width: 10000px;
+}
+
+.portfoliomenutext {
+    font-size: 85%;
+    text-align: center;
 }
 
 #aboutusbox {
