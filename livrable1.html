@@ -5,26 +5,32 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" type="text/css">
+    
 </head>
     
 <body>
     
-   <div id="topblackbar">
-       <div id="singolotitle">
-           <p>SINGOLO<span class="star">*</span></p>
-       </div>       
-       <div id="topmenu">
-           <div class="topmenu">
-                <ul class="topul"> 
-                    <li class="topli">HOME</li>
-                    <li class="topli">SERVICES</li>
-                    <li class="topli">PORTFOLIO</li>
-                    <li class="topli">ABOUT</li>
-                    <li class="topli">CONTACT</li>
-                </ul>
+<!--Parties du haut : logo, menu et zone-->
+    
+    <div id="topblackbar">
+        <div id="topelements">
+           <div id="singolotitle">
+               <p>SINGOLO<span class="star">*</span></p>
+           </div> 
+           <div id="topmenu">
+                    <ul class="topul"> 
+                        <li class="topli"><a href="#topblackbar">HOME</a></li>
+                        <li class="topli"><a href="#servicefronttext">SERVICES</a></li>
+                        <li class="topli"><a href="#portfoliotext">PORTFOLIO</a></li>
+                        <li class="topli"><a href="#aboutustext">ABOUT</a></li>
+                        <li class="topli"><a href="#contacttext">CONTACT</a></li>
+                    </ul>
             </div>
         </div>
     </div> 
+    
+    
+<!--2 eme partie : le carousel : ne fonctionne pas -->
     
     <div id="carouselbox">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -50,49 +56,194 @@
         </div>
     </div>
     
+<!--3 eme partie : le menu de services-->
+    
     <div id="servicesbox">
         <div id="servicefronttext"><p class="servicetitle">Our Services</p>
             <p class="servicetext">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             
                 <div class="row">
-                    <div class="col-sm-4"><img src="img/crayon.png" class="servicesbulle"><p class="servicesbulletitle">Custom Design</p><p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p></div>
-                    <div class="col-sm-4"><img src="img/ampoule.png" class="servicesbulle"><p class="servicesbulletitle">Inovative Ideas</p><p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p></div>
-                    <div class="col-sm-4"><img src="img/coeur.png" class="servicesbulle"><p class="servicesbulletitle">Love Is The Answer</p><p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p></div>
+                    <div class="col-sm-4">
+                        <img src="img/crayon.png" class="servicesbulle">
+                        <div class="servicetotaltext">
+                            <p class="servicesbulletitle">Custom Design</p>
+                            <p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/ampoule.png" class="servicesbulle">
+                        <p class="servicesbulletitle">Inovative Ideas</p>
+                        <p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/coeur.png" class="servicesbulle">
+                        <p class="servicesbulletitle">Love Is The Answer</p>
+                        <p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                    </div>
                 </div>
             
                 <div class="row">
-                    <div class="col-sm-4"><img src="img/phone.png" class="servicesbulle"><p class="servicesbulletitle">Responsive Layout</p><p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p></div>
-                    <div class="col-sm-4"><img src="img/bule.png" class="servicesbulle"><p class="servicesbulletitle">24/7 Support</p><p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p></div>
-                    <div class="col-sm-4"><img src="img/etoile.png" class="servicesbulle"><p class="servicesbulletitle">Feel Like A Star</p><p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p></div>
+                    <div class="col-sm-4">
+                        <img src="img/phone.png" class="servicesbulle">
+                        <p class="servicesbulletitle">Responsive Layout</p>
+                        <p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/bule.png" class="servicesbulle">
+                        <p class="servicesbulletitle">24/7 Support</p>
+                        <p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/etoile.png" class="servicesbulle">
+                        <p class="servicesbulletitle">Feel Like A Star</p>
+                        <p class="servicebullecontent">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                    </div>
                 </div>
         </div>
     </div>
     
+<!--4eme partie : le portfolio -->
+    
     <div id="portfoliobox">
         <div id="portfoliocontent">
-            <div id="portfoliotext">
-                <p>Portfolio</p>
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>                
-            </div>
-            <div class="portfoliomenu">
+            
+                <p id="porttitle">Portfolio</p>
+                <p id="porttext">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+            
+            <ul id="portfoliomenu" type="none">
+                        <li><p class="portfoliomenutext">All</p></li>
+                        <li><p class="portfoliomenutext">Web Design</p></li>
+                        <li><p class="portfoliomenutext">Graphic Design</p></li>
+                        <li><p class="portfoliomenutext">Artwork</p></li>
+            </ul>
+        </div>
+        
+        <div id="portfolioicons1">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-1"><p class="portfoliomenutext">All</p></div>
-                    <div class="col-sm-1"><p class="portfoliomenutext">Web Design</p></div>
-                    <div class="col-sm-1"><p class="portfoliomenutext">Graphic Design</p></div>
-                    <div class="col-sm-1"><p class="portfoliomenutext">Artwork</p></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon1.png" class="icon"></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon2.png" class="icon"></div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon3.png" class="icon"></div>
+                        <div class="clearfix visible-md-block"></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon4.png" class="icon"></div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon1.png" class="icon"></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon2.png" class="icon"></div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="clearfix visible-md-block"></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon3.png" class="icon"></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon4.png" class="icon"></div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon1.png" class="icon"></div>
+                        <div class="clearfix visible-md-block"></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon2.png" class="icon"></div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon3.png" class="icon"></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img src="img/icon4.png" class="icon"></div>
                 </div>
             </div>
-        </div>  
+        </div>       
     </div>
        
-    
-    <div id="aboutusbox">    
+<!-- 5eme partie : la partie présentation des créateurs -->
+    <div id="aboutusbox"> 
+        <div id="aboutuscontent">
+            <div id="aboutustext">
+                <p id="aboutustitle">About Us</p>
+                <p id="aboutustxt">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                       <div class="col-sm-6 col-md-4 col-lg-3">
+                        <img src="img/moi.jpg" class="moiimg">
+                        <p class="moititle">Laffon François</p>
+                        <p  class="moitext">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem</p>
+                            <ul type="none" class="medialist">
+                                <li><img src="img/facebook.png" class="socialimg"></li>
+                                <li><img src="img/google.png" class="socialimg"></li>
+                                <li><img src="img/tweeter.png" class="socialimg"></li>
+                                <li><img src="img/linkedin.png" class="socialimg"></li>
+                            </ul>                        
+                    </div>
+                       <div class="col-sm-6 col-md-4 col-lg-3">
+                        <img src="img/moi.jpg" class="moiimg">
+                        <p class="moititle">Laffon François</p>
+                        <p  class="moitext">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem</p>
+                            <ul type="none" class="medialist">
+                                <li><img src="img/facebook.png" class="socialimg"></li>
+                                <li><img src="img/google.png" class="socialimg"></li>
+                                <li><img src="img/tweeter.png" class="socialimg"></li>
+                                <li><img src="img/linkedin.png" class="socialimg"></li>
+                            </ul>                        
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                        <img src="img/moi.jpg" class="moiimg">
+                        <p class="moititle">Laffon François</p>
+                        <p  class="moitext">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem</p>
+                            <ul type="none" class="medialist">
+                                <li><img src="img/facebook.png" class="socialimg"></li>
+                                <li><img src="img/google.png" class="socialimg"></li>
+                                <li><img src="img/tweeter.png" class="socialimg"></li>
+                                <li><img src="img/linkedin.png" class="socialimg"></li>
+                            </ul>                        
+                    </div>
+                </div>
+            </div>       
+    </div>
     </div>
     
-    <div id="quotebox">    
+<!-- 6eme partie : la partie contact -->
+    <div id="quotebox">
+        <div id="contacttext">
+            <p id="quotettitre">Get a Quote</p>
+            <p id="quotetitretext">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        </div>
+        
+        <div id="quoteinput">
+            <ul type="none">
+                <li><input type="text" placeholder="Name(Required)" class="inputer"></li><br>
+                <li><input type="text" placeholder="Email(Required)" class="inputer"></li><br>
+                <li><input type="text" placeholder="Subject" class="inputer"></li><br>                
+                <li><textarea rows="5" cols="80" placeholder="Describe your project in detail..." id="bigtextcontact"></textarea></li>
+            
+            </ul>
+        </div>
+        
+        <div id="quoteinformations">
+            <div class="contactinfo" id="quotetitle">
+                <p>Contact Information</p>
+            </div>
+            <div class="contactinfo">
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            </div>
+            <div class="contactinfo" id="listinfo">
+                <ul type="none">
+                    <li><img src="img/location.png" class="contacticon">17 rue Bouchardon, 75010 Paris</li>
+                    <li><img src="img/phoneme.png" class="contacticon">06 81 94 97 61</li>
+                    <li><img src="img/email.png" class="contacticon">francois.laffon.dev@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
     </div>
+<!--7eme partie : le petit menu du bas -->
     
     <div id="bottommenu">
+        <div id="bottomtext">
+            <p>&#9400;Copyright 2013 by PSDchat.com</p>
+        </div>
+        
+        <div id="bottomicons">
+            <ul type="none" id="bottomiconslist">
+                <li><img src="img/facebookblack.png" class="blackpng"></li>
+                <li><img src="img/googleblack.png" class="blackpng"></li>
+                <li><img src="img/tweeterblack.png" class="blackpng"></li>
+                <li><img src="img/linkedinblack.png" class="blackpng"></li>
+            </ul>
+        </div>
+        
     </div>
     
     

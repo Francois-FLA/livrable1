@@ -1,34 +1,53 @@
 #topblackbar {
+    height: auto;
+    width: 100%;
     background-color: #282D42;
-    height:95px;
+    display: inline-block;
+    vertical-align: bottom;
+    }
+
+#topelements {
+    width: auto;
+    height: auto;
 }
 
 #singolotitle {
     color: white;
-    float: left;
-    text-align: center;
-    height: 95px;
-    width: 150px;
-    margin-top: 25px;
-    margin-left: 35px ;
+    height: auto;
+    width: auto;
     font-size: 180%;
-        
+    float: left;
+    margin-left: 35px;
+    margin-top: 10px;    
 }
+
 .star {
     color: #F16C65;    
 }
 
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color:white;
+    text-decoration: none;
 
+}
+a:visited {
+    color: white;
+    text-decoration: none;
 
-.topmenu {
+}
+
+#topmenu {
+    color: white;
+    list-style: none;
+    float: right;
     height: auto;
     width: auto;
-    float: right;
-    color: white;
-    margin-right: 75px;
-    list-style: none;
-    display: inline;
-    margin-top: 35px;    
+    margin-top: 20px;
+    margin-right: 100px;
 } 
 
 .topul .topli { list-style: none; display: inline; }
@@ -36,7 +55,8 @@
 .topul .topli:last-child:after { content: none; }
 
 #carouselbox {
-    height: 620px;
+    height: auto;
+    width: auto;
     background-color: #F16C65;
     float: inherit;
 }
@@ -49,7 +69,7 @@
 
 #servicesbox {
     background-color:#C8CAD4; 
-    height:550px; 
+    height:auto; 
     padding-left: 20px;
     padding-right: 20px;
 
@@ -72,6 +92,11 @@
     color:#626883;
     font-family: Arial;
 
+}
+
+.servicetotaltext {
+height: auto;
+width: auto;
 }
 
 .servicesbulle {
@@ -98,39 +123,266 @@
 
 #portfoliobox {
     background-color:#2D2F3B; 
-    height:800px; 
+    height:auto; 
+    width: auto;
     color: #626883;
+    
 }
 
 #portfoliocontent {
-    
+    height:auto; 
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #portfoliotext {
     
 }
 
+#porttitle {
+    font-size: 200%;
+    font-weight: bold;
+    padding-top: 40px;
+}
 
-.col-sm-1 {
-    width: 10000px;
+#porttitle, #porttext {
+    margin-left: 45px;
+    margin-top: auto;
+    color:#626883;
+    font-family: Arial;
+
+}
+
+#portfoliomenu {
+    display: inline-flex;
+    
+    
 }
 
 .portfoliomenutext {
-    font-size: 85%;
-    text-align: center;
+    font-size: 75%;
+    height: auto;
+    width: auto;
+    border: 2px solid #626883;    
+    border-radius: 7px;
+    padding: 4px;
+    margin: 5px;
+}
+
+#portfolioicons1{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+
+}
+
+
+.icon {
+    height: 170px;
+    width: 170px;
+    margin-top: 30px;
+    margin-left: 4%;
+
 }
 
 #aboutusbox {
-    height: 675px;
+    height: auto;
+    width: auto;
     background-color: #C8CAD4;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#aboutuscontent {
+     height:auto; 
+    padding-right: 20px;
+}
+
+#aboutustitle {
+    font-family: Arial;
+    font-size: 200%;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    font-weight: bold;
+    color: #626883;
+
+}
+
+#aboutustxt {
+    margin-left: 20px;
+    margin-top: auto;
+    color:#626883;
+    font-family: Arial;
+}
+
+
+.moiimg {
+   margin: 5px;
+}
+
+.moititle {
+    font-family: Arial;
+    font-size: 120%;
+    font-weight: bold;
+    color:#626883;
+    margin: 5px;
+}
+
+.moitext {
+    font-family: Arial;
+        color:#626883;
+    margin: 5px;
+}
+
+.contactlist {
+    display: inline-block;
+    float: left;
+}
+
+.socialimg {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 7px;
+}
+
+.medialist {
+    display: inline-flex;
+    margin-left: -17%;
+    margin-bottom: 50px;
 }
 
 #quotebox {
-    height: 675px;
+    height: auto;
+    width: auto;
     background-color: #F16C65;
+    display: inline-block;
+    color:#F0D8D8;
+
+
+}
+
+#contacttext {
+    height: auto;
+    width: auto;
+    font-family: Arial;
+}
+
+#quotettitre {
+    font-family: Arial;
+    font-size: 200%;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+#quotetitretext {
+    margin-left: 20px;
+    margin-top: auto;
+    font-family: Arial;
+}
+
+#quoteinput {
+    float:left;
+    display: inline-flex;
+    height: auto;
+    width: 60%;
+    margin-left: -20px;
+}
+
+.inputer {
+    width: 90%;
+    border-radius: 10px;
+    background-color: #D75650;
+    color: #F16C65;
+    border-style: none;
+    color: #F0D8D8;
+    padding: 10px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #F16C65;
+    font-size: 80%;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #F16C65;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #F16C65;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #F16C65;
+}
+
+#bigtextcontact {
+    width: 90%;
+    border-radius: 10px;
+    background-color: #D75650;
+    border-style: none;
+    color:#F0D8D8;
+    padding: 5px;
+    
+}
+
+
+#quoteinformations {
+    float: right;
+    height: auto;
+    width: 40%;
+    
+}
+
+#quotetitle, #listinfo {
+    float: left;
+
+}
+
+#quotetitle {
+    font-size: 140%;
+}
+
+
+
+.contactinfo {
+    float:right;
+}
+
+.contacticon {
+    height: 15px;
+    width: 15px;
 }
 
 #bottommenu {
-    height: 95px;
+    height: auto;
+    width: 100%;
     background-color: #282D42;
+    color: #676C89;
+    display: inline-block;
+}
+    
+#bottomtext {
+    float: left;
+    width: 70%;
+    margin-top: 20px;
+}
+
+
+#bottomicons {
+    float: right;
+    width: 30%;        
+}
+
+#bottomiconslist {
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.blackpng {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 7px;
 }
