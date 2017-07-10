@@ -1,3 +1,5 @@
+/*Parties du haut : logo, menu et zone*/
+
 #topblackbar {
     height: auto;
     width: 100%;
@@ -29,15 +31,16 @@ a:link {
     color: white;
     text-decoration: none;
 }
+
 a:hover {
     color:white;
     text-decoration: none;
 
 }
+
 a:visited {
     color: white;
     text-decoration: none;
-
 }
 
 #topmenu {
@@ -54,11 +57,26 @@ a:visited {
 .topul .topli:after { content: " \00b7"; }
 .topul .topli:last-child:after { content: none; }
 
+/*2 eme partie : le carousel*/
+
 #carouselbox {
     height: auto;
     width: auto;
     background-color: #F16C65;
-    float: inherit;
+}
+
+.carousel-inner > .item > img, 
+
+.carousel-inner > .item > a > img {
+      width: auto;
+      height: 100%;
+      margin: auto;
+  }
+
+.carouselimg {
+    height: 500px;
+    width: 500px;
+    padding: 50px;
 }
 
 .d-block {
@@ -66,6 +84,7 @@ a:visited {
     margin-top: 10px;
 }
 
+/*3 eme partie : le menu de services*/
 
 #servicesbox {
     background-color:#C8CAD4; 
@@ -91,7 +110,6 @@ a:visited {
     margin-top: auto;
     color:#626883;
     font-family: Arial;
-
 }
 
 .servicetotaltext {
@@ -118,25 +136,21 @@ width: auto;
 .servicebullecontent {
     font-family: Arial;
         color:#626883;
-
 }
+
+/*4eme partie : le portfolio*/
 
 #portfoliobox {
     background-color:#2D2F3B; 
     height:auto; 
     width: auto;
-    color: #626883;
-    
+    color: #626883;    
 }
 
 #portfoliocontent {
     height:auto; 
     padding-left: 20px;
     padding-right: 20px;
-}
-
-#portfoliotext {
-    
 }
 
 #porttitle {
@@ -150,13 +164,10 @@ width: auto;
     margin-top: auto;
     color:#626883;
     font-family: Arial;
-
 }
 
 #portfoliomenu {
-    display: inline-flex;
-    
-    
+    display: inline-flex; 
 }
 
 .portfoliomenutext {
@@ -173,17 +184,16 @@ width: auto;
     height: 100%;
     width: 100%;
     padding: 40px;
-
 }
-
 
 .icon {
     height: 170px;
     width: 170px;
     margin-top: 30px;
     margin-left: 4%;
-
 }
+
+/*5eme partie : la partie présentation des créateurs*/
 
 #aboutusbox {
     height: auto;
@@ -206,7 +216,6 @@ width: auto;
     padding: 20px;
     font-weight: bold;
     color: #626883;
-
 }
 
 #aboutustxt {
@@ -215,7 +224,6 @@ width: auto;
     color:#626883;
     font-family: Arial;
 }
-
 
 .moiimg {
    margin: 5px;
@@ -253,14 +261,14 @@ width: auto;
     margin-bottom: 50px;
 }
 
+/*6eme partie : la partie contact*/
+
 #quotebox {
     height: auto;
     width: auto;
     background-color: #F16C65;
     display: inline-block;
     color:#F0D8D8;
-
-
 }
 
 #contacttext {
@@ -323,28 +331,22 @@ width: auto;
     background-color: #D75650;
     border-style: none;
     color:#F0D8D8;
-    padding: 5px;
-    
+    padding: 5px;    
 }
-
 
 #quoteinformations {
     float: right;
     height: auto;
-    width: 40%;
-    
+    width: 40%;    
 }
 
 #quotetitle, #listinfo {
     float: left;
-
 }
 
 #quotetitle {
     font-size: 140%;
 }
-
-
 
 .contactinfo {
     float:right;
@@ -354,6 +356,8 @@ width: auto;
     height: 15px;
     width: 15px;
 }
+
+/*7eme partie : le petit menu du bas*/
 
 #bottommenu {
     height: auto;
@@ -368,7 +372,6 @@ width: auto;
     width: 70%;
     margin-top: 20px;
 }
-
 
 #bottomicons {
     float: right;
