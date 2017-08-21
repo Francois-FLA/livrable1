@@ -1,304 +1,91 @@
-/*Parties du haut : logo, menu et zone*/
-
-#topblackbar {
-    height: auto;
-    width: 100%;
-    background-color: #282D42;
-    display: inline-block;
-    vertical-align: bottom;
-    }
-
-#topelements {
-    width: auto;
-    height: auto;
+body {
+  position: relative;
 }
 
-#singolotitle {
-    color: white;
-    height: auto;
-    width: auto;
-    font-size: 180%;
-    float: left;
-    margin-left: 35px;
-    margin-top: 10px;    
+
+
+#topLink:hover {
+    color: #F16C65;
 }
 
-.star {
-    color: #F16C65;    
+
+
+#metroidIconTop {
+    height: 15%;
+    width: 15%;
 }
 
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color:white;
-    text-decoration: none;
-
-}
-
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-#topmenu {
-    color: white;
-    list-style: none;
-    float: right;
+#imgCaroussel{
     height: auto;
     width: auto;
-    margin-top: 20px;
-    margin-right: 100px;
-} 
+    
+}
 
-.topul .topli { list-style: none; display: inline; }
-.topul .topli:after { content: " \00b7"; }
-.topul .topli:last-child:after { content: none; }
 
-/*2 eme partie : le carousel*/
-
-#carouselbox {
-    height: auto;
-    width: auto;
+#carrousselBox {
     background-color: #F16C65;
+    
 }
 
-.carousel-inner > .item > img, 
-
-.carousel-inner > .item > a > img {
-      width: auto;
-      height: 100%;
-      margin: auto;
-  }
-
-.carouselimg {
-    height: 500px;
-    width: 500px;
+#bullHeader {
     padding: 50px;
 }
 
-.d-block {
-    margin-left: 160px;
-    margin-top: 10px;
+#bubble {
+    display: inline-grid;
+}
+#servicesBox {
+    
 }
 
-/*3 eme partie : le menu de services*/
-
-#servicesbox {
-    background-color:#C8CAD4; 
-    height:auto; 
-    padding-left: 20px;
-    padding-right: 20px;
-
+#portfolioBox {
+    background-color: #626883;
 }
 
-.servicefronttext {
+#bulleImg {
     float: left;
-    color: #F2F2F2;
+    margin: 10px;
+    padding-bottom: 90px;
+    padding-top: 35px;
+    margin-right:20px;
+}
+#bulleTxt{
+    margin: 10px;
 }
 
-.servicetitle {
-    font-size: 200%;
-    font-weight: bold;
-    padding-top: 40px;
+#metroidContainer {
+    padding: 30px;
 }
 
-.servicetitle, .servicetext {
-    margin-left: 20px;
-    margin-top: auto;
-    color:#626883;
-    font-family: Arial;
+.labelPortfolio {
+    border: solid;
+    border-radius: 15px;
+    margin: 5px;    
 }
 
-.servicetotaltext {
-height: auto;
-width: auto;
+.metroid {
+    margin: 10px;
+}
+#aboutUsBox {
 }
 
-.servicesbulle {
-    float:left;
-    height: 90px;
-    width: 90px;
-    margin: 15px;
-    border-radius: 100px;
-    margin-right: 25px;
-}
-
-.servicesbulletitle {
-    font-family: Arial;
-    font-size: 120%;
-    font-weight: bold;
-    color:#626883;
-}
-
-.servicebullecontent {
-    font-family: Arial;
-        color:#626883;
-}
-
-/*4eme partie : le portfolio*/
-
-#portfoliobox {
-    background-color:#2D2F3B; 
-    height:auto; 
-    width: auto;
-    color: #626883;    
-}
-
-#portfoliocontent {
-    height:auto; 
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#porttitle {
-    font-size: 200%;
-    font-weight: bold;
-    padding-top: 40px;
-}
-
-#porttitle, #porttext {
-    margin-left: 45px;
-    margin-top: auto;
-    color:#626883;
-    font-family: Arial;
-}
-
-#portfoliomenu {
-    display: inline-flex; 
-}
-
-.portfoliomenutext {
-    font-size: 75%;
-    height: auto;
-    width: auto;
-    border: 2px solid #626883;    
-    border-radius: 7px;
-    padding: 4px;
-    margin: 5px;
-}
-
-#portfolioicons1{
-    height: 100%;
-    width: 100%;
-    padding: 40px;
-}
-
-.icon {
-    height: 170px;
-    width: 170px;
-    margin-top: 30px;
-    margin-left: 4%;
-}
-
-/*5eme partie : la partie présentation des créateurs*/
-
-#aboutusbox {
-    height: auto;
-    width: auto;
-    background-color: #C8CAD4;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#aboutuscontent {
-     height:auto; 
-    padding-right: 20px;
-}
-
-#aboutustitle {
-    font-family: Arial;
-    font-size: 200%;
-    height: auto;
-    width: auto;
-    padding: 20px;
-    font-weight: bold;
-    color: #626883;
-}
-
-#aboutustxt {
-    margin-left: 20px;
-    margin-top: auto;
-    color:#626883;
-    font-family: Arial;
-}
-
-.moiimg {
-   margin: 5px;
-}
-
-.moititle {
-    font-family: Arial;
-    font-size: 120%;
-    font-weight: bold;
-    color:#626883;
-    margin: 5px;
-}
-
-.moitext {
-    font-family: Arial;
-        color:#626883;
-    margin: 5px;
-}
-
-.contactlist {
-    display: inline-block;
-    float: left;
-}
-
-.socialimg {
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    margin-right: 7px;
-}
-
-.medialist {
+.bubleIcons {
     display: inline-flex;
-    margin-left: -17%;
-    margin-bottom: 50px;
+}
+#quoteInfo{
+    display: inline-flex;
 }
 
-/*6eme partie : la partie contact*/
+#quoteInput {
+    float: left;
+}
 
-#quotebox {
-    height: auto;
-    width: auto;
+#quoteInformations {
+    float: right;
+}
+
+#quoteBox {
     background-color: #F16C65;
-    display: inline-block;
-    color:#F0D8D8;
-}
-
-#contacttext {
-    height: auto;
-    width: auto;
-    font-family: Arial;
-}
-
-#quotettitre {
-    font-family: Arial;
-    font-size: 200%;
-    height: auto;
-    width: auto;
-    padding: 20px;
-    font-weight: bold;
-    margin-bottom: -5px;
-}
-
-#quotetitretext {
-    margin-left: 20px;
-    margin-top: auto;
-    font-family: Arial;
-}
-
-#quoteinput {
-    float:left;
-    display: inline-flex;
-    height: auto;
-    width: 60%;
-    margin-left: -20px;
 }
 
 .inputer {
@@ -307,8 +94,16 @@ width: auto;
     background-color: #D75650;
     color: #F16C65;
     border-style: none;
-    color: #F0D8D8;
     padding: 10px;
+}
+
+#bigtextcontact {
+    width: 90%;
+    border-radius: 10px;
+    background-color: #D75650;
+    border-style: none;
+    color:#F0D8D8;
+    padding: 5px;    
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -325,67 +120,6 @@ width: auto;
   color: #F16C65;
 }
 
-#bigtextcontact {
-    width: 90%;
-    border-radius: 10px;
-    background-color: #D75650;
-    border-style: none;
-    color:#F0D8D8;
-    padding: 5px;    
-}
-
-#quoteinformations {
-    float: right;
-    height: auto;
-    width: 40%;    
-}
-
-#quotetitle, #listinfo {
-    float: left;
-}
-
-#quotetitle {
-    font-size: 140%;
-}
-
-.contactinfo {
-    float:right;
-}
-
-.contacticon {
-    height: 15px;
-    width: 15px;
-}
-
-/*7eme partie : le petit menu du bas*/
-
-#bottommenu {
-    height: auto;
-    width: 100%;
-    background-color: #282D42;
-    color: #676C89;
-    display: inline-block;
-}
-    
-#bottomtext {
-    float: left;
-    width: 70%;
-    margin-top: 20px;
-}
-
-#bottomicons {
-    float: right;
-    width: 30%;        
-}
-
-#bottomiconslist {
-    display: inline-flex;
-    margin-top: 15px;
-}
-
-.blackpng {
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    margin-right: 7px;
+.greyBox {
+    background-color: lightgrey;
 }
